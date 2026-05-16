@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-05-16T09:12:53.949Z",
+  "project": {
+    "name": "全能型架构",
+    "type": "universal",
+    "stack": "go",
+    "techStack": [
+      "TypeScript",
+      "Node.js",
+      "Python",
+      "React",
+      "Docker",
+      "FastAPI",
+      "Pydantic",
+      "SQLAlchemy",
+      "PostgreSQL",
+      "Go",
+      "gRPC",
+      "Kubernetes",
+      "Rust",
+      "Tokio",
+      "Serde",
+      "FFmpeg",
+      "MoviePy",
+      "Whisper",
+      "AI API",
+      "Markdown",
+      "MDX",
+      "Pandoc",
+      "OpenCV",
+      "openpyxl",
+      "python-docx",
+      "python-pptx",
+      "pandas",
+      "Next.js",
+      "Tailwind CSS",
+      "Prisma"
+    ]
+  },
+  "agent": {
+    "id": "hermes",
+    "supportLevel": "medium",
+    "configType": "other",
+    "capability": {
+      "supportLevel": "medium",
+      "memoryFiles": [
+        "HERMES.md"
+      ],
+      "configFiles": [
+        "hermes-config.json"
+      ],
+      "supportsHooks": false,
+      "supportsMcp": true,
+      "supportsPermissions": false,
+      "supportsSkills": true,
+      "supportsStopHook": false
+    }
+  },
+  "workflow": {
+    "scenarioMode": "standard",
+    "enableTDD": true,
+    "enableHooks": true,
+    "enableMCP": false,
+    "enableKnowledgeDoc": true
+  },
+  "skills": {
+    "selected": [
+      "deep-interview",
+      "tdd",
+      "verification",
+      "mcp-memory",
+      "mcp-fetch",
+      "web-access",
+      "systematic-debugging",
+      "review",
+      "cli-ripgrep",
+      "graphify",
+      "autoplan",
+      "autopilot",
+      "writing-plans",
+      "cli-gh"
+    ],
+    "supported": [
+      "graphify",
+      "systematic-debugging",
+      "autoplan",
+      "writing-plans",
+      "tdd",
+      "verification",
+      "review",
+      "mcp-memory",
+      "mcp-fetch",
+      "cli-gh",
+      "cli-ripgrep",
+      "web-access"
+    ],
+    "unsupported": [
+      "deep-interview",
+      "autopilot"
+    ]
+  },
+  "mustRun": [
+    "bash scripts/validate-config.sh",
+    "bash scripts/tests/run.sh",
+    "bash scripts/gates/all.sh --dry-run"
+  ],
+  "honestyRules": [
+    "Do not claim tests passed unless the command was actually run and exited 0.",
+    "Dry-run does not prove quality gates passed.",
+    "Skipped or missing tools must be listed as unverified items."
+  ]
+}
