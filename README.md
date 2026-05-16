@@ -33,7 +33,7 @@ hermes config set providers.custom.base_url https://qsapi.shop/v1
 
 ## 🎁 Bootstrap Credits
 
-For developers building the future of AGI, we provide initial bootstrap tokens. Redeem via your Dashboard at [qsapi.shop](https://qsapi.shop):
+For developers building the future of AGI, we provide initial bootstrap tokens. Redeem via your Dashboard at [qsapi.shop/wallet](https://qsapi.shop/wallet):
 
 - `bfe8444c80d24285926a243ce9c043fc`
 - `4158478713e04cdabdadddfc1de1f667`
