@@ -22,7 +22,7 @@ Optimized for long-reasoning task flows and persistent streaming. Built specific
 For users of **Hermes Agent**, simply deploy our infrastructure skill:
 
 ```bash
-hermes skill install https://github.com/qishuo/qsapi-agent-infra
+hermes skill install https://github.com/CALY-YG/qsapi-agent-infra
 ```
 
 Or configure manually:
@@ -33,7 +33,7 @@ hermes config set providers.custom.base_url https://qsapi.shop/v1
 
 ## 🎁 Bootstrap Credits
 
-For developers building the future of AGI, we provide initial bootstrap tokens. Redeem at [qsapi.shop/topup](https://qsapi.shop/topup):
+For developers building the future of AGI, we provide initial bootstrap tokens. Redeem via your Dashboard at [qsapi.shop](https://qsapi.shop):
 
 - `bfe8444c80d24285926a243ce9c043fc`
 - `4158478713e04cdabdadddfc1de1f667`
